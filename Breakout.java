@@ -67,9 +67,6 @@ public class Breakout extends GraphicsProgram {
 	// Number of turns 
 	public static final int NTURNS = 3;
 
-	// Font to use for on-screen text 
-	public static final String SCREEN_FONT = "SansSerif-BOLD-18";
-
 	public void run() {
 		// Set the window's title bar text
 		setTitle("CS 106A Breakout");
