@@ -9,9 +9,8 @@
 import java.awt.Color;
 import java.awt.event.MouseEvent;
 
-import acm.graphics.GLabel;
-import acm.program.*;
 import acm.graphics.*;
+import acm.program.*;
 
 public class MouseReporter extends GraphicsProgram {
 
