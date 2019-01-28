@@ -9,7 +9,8 @@ import acm.program.*;
 public class PrimeChecker extends ConsoleProgram {
 	
 	int[] testCases = {2, 3, 8, 37,  42, 87, 361, 382, 729, 1019};
-	boolean[] answers = {true, true, false, true, false, false, false, false, false, true};
+	boolean[] answers = {true, true, false, true, false, false, 
+						 false, false, false, true};
 	
 	/**
 	 * Don't modify this method! You only need to edit the 
