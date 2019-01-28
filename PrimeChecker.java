@@ -21,7 +21,7 @@ public class PrimeChecker extends ConsoleProgram {
 				println("Your solution worked for n = " + testCase + "!");
 				
 			} else {
-				println("Your method returned " + returned + "for n = " + 
+				println("Your method returned " + returned + " for n = " + 
 						testCase + ", but it should have returned " + solution);
 			}
 		}
