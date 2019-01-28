@@ -22,7 +22,7 @@ public class PrimeChecker extends ConsoleProgram {
 				
 			} else {
 				println("Your method returned " + returned + " for n = " + 
-						testCase + ", but it should have returned " + solution);
+						testCase + ", but it should have returned " + solution + ".");
 			}
 		}
 	}
