@@ -32,7 +32,7 @@ public class PrimeChecker extends ConsoleProgram {
 	 * @param n a positive integer greater than 1
 	 * @return true if n is prime and false otherwise
 	 */
-	private boolean isPrime(int n) {
+	public boolean isPrime(int n) {
 		
 		return true; // this is only here so the program compiles
 	}
