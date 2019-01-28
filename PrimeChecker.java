@@ -18,7 +18,7 @@ public class PrimeChecker extends ConsoleProgram {
 			boolean returned = isPrime(testCase);
 			
 			if (solution == returned) {
-				println("Your solution worked for n = " + testCase + "!");
+				println("Your solution worked for n = " + testCase + ".");
 				
 			} else {
 				println("Your method returned " + returned + " for n = " + 
