@@ -16,6 +16,7 @@ public class PrimeChecker extends ConsoleProgram {
 	
 	private boolean isPrime(int n) {
 		
+		return true; // this is only here so the program compiles
 	}
 
 
