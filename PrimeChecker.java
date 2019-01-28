@@ -14,7 +14,16 @@ public class PrimeChecker extends ConsoleProgram {
 	public void run() {	
 		for (int i = 0; i < testCases.length; i++) {
 			int testCase = testCases[i];
+			boolean solution = answers[i];
+			boolean returned = isPrime(testCase);
 			
+			if (solution == returned) {
+				println("Your solution worked for n = " + testCase + "!");
+				
+			} else {
+				println("Your method returned " + returned + "for n = " + 
+						testCase + ", but it should have returned " + solution);
+			}
 		}
 	}
 	
