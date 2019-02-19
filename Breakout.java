@@ -69,7 +69,7 @@ public class Breakout extends GraphicsProgram {
 
 	public void run() {
 		// Set the window's title bar text
-		setTitle("CS 106A Breakout");
+		setTitle("CIS Y11 CS Breakout");
 
 		// Set the canvas size.  In your code, remember to ALWAYS use getWidth()
 		// and getHeight() to get the screen dimensions, not these constants!
